@@ -1,0 +1,67 @@
+.MainHarmonica
+{
+    display:flex;
+    border:solid black thick;
+    align-items: center;
+    border-radius:10px;
+    margin-bottom:50px;
+}
+.p1,.p2,.p3,.p4,.p5,.p6,.p7,.p8,.p9,.p10,.p11,.p12
+{
+    flex:1;
+    border:solid black thin;
+    text-align: center;
+    padding:8px;
+    font-size: medium;
+}
+body
+{
+    /* margin-left:20px;
+    margin-right:20px; */
+    background-color: rgb(190, 188, 188);
+}
+
+.StopPlay,.WriteKeyboard,.Delete1,.DeleteAll,.textMusic,.addMusic,.Play,.Save,.playKeyboard,.runKeyboard,.RemoveEvent,.AddEvent
+{
+    padding:10px;
+    border-radius:5px;
+    font-size:large;
+}
+.textMusic
+{
+    width:99px;
+    margin-top: 30px;
+}
+.DisplayNotes
+{
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:green;
+}
+.tryagain
+{
+    color:rgb(236, 69, 69);
+    margin-top:10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.green
+{
+    background-color:green;
+    color:white;
+    z-index:2
+    ;
+}
+.red
+{
+    background-color:red;
+    color:white;
+}
+.playKeyboard,.runkeyboard
+{
+    margin-top:20px;
+}
+
+.RemoveEvent,.AddEvent
+{
+    margin-top:20px;
+}
