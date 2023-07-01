@@ -1,43 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="harmnonica.css">
-</head>
-<body>
-    <h1>Code your Harmonica Tab (E-scale)</h1>
-    <div class="MainHarmonica">
-        <div class="p1">1</div>
-        <div class="p2">2</div>
-        <div class="p3">3</div>
-        <div class="p4">4</div>
-        <div class="p5">5</div>
-        <div class="p6">6</div>
-        <div class="p7">7</div>
-        <div class="p8">8</div>
-        <div class="p9">9</div>
-        <div class="p10">10</div>
-        <div class="p11">11</div>
-        <div class="p12">12</div>
-    </div>
-    <!-- write music here -->
-    <div class="DisplayNotes">Your typed notes appear here</div>
-    <input type="text" class="textMusic" placeholder="Code tab..." maxlength="3">
-    <button class="addMusic">Add</button>
-    <button class="Delete1">Backspace</button>
-    <button class="DeleteAll">Clear</button><br><br>
-    <button class="Play">Play</button>
-    <button class="StopPlay">Stop</button>
-    <button class="Save">Save</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ultimate harmonica 2.0</title>
+    <link rel="stylesheet" href="harmnonica.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap" rel="stylesheet">
+    
+  </head>
+  <body>
+        <h1>Ultimate Harmonica</h1><hr>
+    
 
-    <div class="tryagain"></div>
-    <button class="AddEvent">Play Harmonica</button><br>
-    <div class="WriteSrchButton"></div>
+    <div class="ContainAll">
+        <div class="main1">
+            <div class="MainHarmonica">
+                <div class="p1">1</div>
+                <div class="p2">2</div>
+                <div class="p3">3</div>
+                <div class="p4">4</div>
+                <div class="p5">5</div>
+                <div class="p6">6</div>
+                <div class="p7">7</div>
+                <div class="p8">8</div>
+                <div class="p9">9</div>
+                <div class="p10">10</div>
+                <div class="p11">11</div>
+                <div class="p12">12</div>
+              </div>
+              <!-- write music here -->
+              <div class="display">
+                <div class="DisplayNotes">Your typed notes appear here</div>
+                <div class="tryagain"></div>
+              </div>
+          
+              <!-- buttons and searchbar here -->
+             
+              <div class="ButtonsMain">
+                <div class="z1">
+                    <div class="zEdit">
+                        <input
+                        type="text"
+                        class="textMusic"
+                        placeholder="Code tab..."
+                        maxlength="3"
+                      />
+                        
+                    </div>
+
+                    <div class="buttonsPanel">
+                        <button class="addMusic">+</button>
+                        <button class="Delete1">Delete</button>
+                        <button class="DeleteAll">Clear</button>
+                        <button class="Play">AutoPlay</button>
+                        <button class="StopPlay">Reset Play</button>
+                        <button class="Save">Save Tab</button>
+                        <button class="AddEvent">Play Harmonica</button>
+                        <div class="WriteSrchButton"></div>
+                </div>        
+            </div>
+          
+                <div class="SensitiveContent">
+                  <div class="AreYouAdmin">
+                    <p class="t1">Admin Verification</p>
+                    <input
+                      type="password"
+                      maxlength="4"
+                      placeholder="Password"
+                      class="IsTrue"
+                    />
+                    <button class="isAdmin">Verify</button>
+                    <p>You get full Access to files after getting Admin Access like deleting files.</p>
+                  </div>
+
+                </div>
+              </div>
+        </div>
+    
+        <div class="main2">
+            <p class="savedAlbums">Saved Tabs</p>
+            <div class="saveContents"></div>
+            <div class="saveTab"></div>
+        </div>
+    </div>
+    <p class="stickbottom">&copy Creator of this app Avishek Chhetri</p>
     <!-- javascript here -->
     <script src="harmonica.js"></script>
-
-</body>
+  </body>
 </html>
